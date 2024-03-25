@@ -9,3 +9,6 @@ print(df)
 
 missing_values_cnt = df.isnull().sum()
 print(missing_values_cnt)
+
+cleaned_df = df.dropna()
+print(cleaned_df)
